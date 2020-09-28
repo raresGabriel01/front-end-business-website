@@ -1,0 +1,62 @@
+.jumbotron {
+	background-image:linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),url('/kitty.jpg');
+	background-color:'red';
+	background-position:center;
+	background-repeat:none;
+	background-size:cover;
+	height:100vh;
+	color:white;
+	font-family: 'Merriweather', serif;
+	font-size:30px;
+}
+
+.jumbotron > .container-fluid {
+	padding-left:2.5%;
+}
+
+.jumbotron > .container-fluid > h1 {
+	font-size:3em;
+}
+
+.jumbotron > .container-fluid > p {
+	font-size:1em;
+}
+
+
+.fall {
+	animation-name:fall;
+	animation-duration:2s;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-out;
+}
+
+@keyframes fall {
+	from{opacity: 0%; transform:translateY(-200%);}
+	to{opacity: 100%; transform:translateY(0%);}
+}
+
+
+@media only screen and (max-width:992px) {
+	.jumbotron {
+		font-size:25px;
+	}
+}
+
+@media only screen and (max-width:768px) {
+	.jumbotron {
+		font-size:20px;
+	}
+}
+
+@media only screen and (max-width:576px) {
+	.jumbotron {
+		font-size:15px;
+	}
+}
+@media only screen and (max-width:333px) {
+	.jumbotron {
+		font-size:12px;
+	}
+}
+
+
