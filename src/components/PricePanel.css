@@ -1,0 +1,23 @@
+.card-header, .card-footer {
+	background-color:#393454;
+	color:white;
+	
+}
+.buyButton {
+	border-radius:12px;
+	background-color:white;
+	color:#393454;
+	padding:14px 16px;
+	outline:none;
+	border:2px solid white;
+	font-weight: bold;
+	transition:300ms all linear;
+}
+
+.buyButton:hover {
+	color:white;
+	background-color:#393454;
+}
+.card {
+	border-width:3px;
+}

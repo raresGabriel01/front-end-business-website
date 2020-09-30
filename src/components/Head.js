@@ -13,11 +13,13 @@ class Head extends React.Component {
 	render() {
 		let myStyle = {height:this.state.height}
 		return (
-			<div className = "jumbotron jumbotron-fluid" style = {myStyle}>
+			<div id = "banner" className = "jumbotron jumbotron-fluid" style = {myStyle}>
 				<div className = "container-fluid">
-					<h1 className="fall"> Emeowtional </h1>
-					<p className="fall"> Your purrfect therapy session </p>
+					<h1 className="fall stroke"> Emeowtional </h1>
+					<p className="fall stroke"> Your purrfect therapy session </p>
+					<button className="book slide stroke"> Book now </button>
 				</div> 
+
 			</div>
 		)
 	}

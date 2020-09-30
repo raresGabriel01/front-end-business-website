@@ -1,0 +1,33 @@
+.navbar {
+	font-size:20px;
+	padding:4px 0px 4px 0px;
+	background-color:#393454;
+}
+
+
+a.navbar-brand {
+	font-family: 'Dancing Script', cursive;
+	color:white;
+	margin-left:20px;
+	font-size:2rem;
+}
+
+a.nav-link {
+	color:white;
+}
+
+
+
+li.nav-item {
+	height:100%;
+	line-height:30px;
+	margin-right:20px;
+	padding:0 10px 0 10px;
+	border:2px solid #393454;
+	transition: 300ms all linear;
+	border-radius:12px;
+}
+
+li.nav-item:hover {
+	border-color:white;
+}

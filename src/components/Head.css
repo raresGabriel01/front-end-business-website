@@ -1,4 +1,5 @@
-.jumbotron {
+#banner {
+	position:relative;
 	background-image:linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),url('/kitty.jpg');
 	background-color:'red';
 	background-position:center;
@@ -8,18 +9,22 @@
 	color:white;
 	font-family: 'Merriweather', serif;
 	font-size:30px;
+	margin-bottom:0;
+
 }
 
-.jumbotron > .container-fluid {
-	padding-left:2.5%;
+#banner > .container-fluid {
+	padding-left:5%;
 }
 
-.jumbotron > .container-fluid > h1 {
+#banner > .container-fluid > h1 {
 	font-size:3em;
+	
 }
 
-.jumbotron > .container-fluid > p {
+#banner > .container-fluid > p {
 	font-size:1em;
+	
 }
 
 
@@ -37,26 +42,56 @@
 
 
 @media only screen and (max-width:992px) {
-	.jumbotron {
+	#banner {
 		font-size:25px;
 	}
 }
 
 @media only screen and (max-width:768px) {
-	.jumbotron {
+	#banner {
 		font-size:20px;
 	}
 }
 
 @media only screen and (max-width:576px) {
-	.jumbotron {
+	#banner {
 		font-size:15px;
 	}
 }
 @media only screen and (max-width:333px) {
-	.jumbotron {
+	#banner {
 		font-size:12px;
 	}
 }
 
 
+.book {
+	background-color:transparent;
+	color:white;
+	padding:14px 16px;
+	border-radius:12px;
+	border:2px solid white;
+	outline:none;
+	transition:300ms all linear;
+	opacity:0;
+
+}
+
+.book:hover {
+	background-color:white;
+	color:black;
+	text-shadow:none;
+}
+
+.slide{
+	position:relative;
+	animation:slide 2s ease-out forwards;
+	
+}
+
+
+
+@keyframes slide {
+	from{opacity:0;transform:translateX(-100%);}
+	to{opacity:1;transform:translateX(0);}
+}

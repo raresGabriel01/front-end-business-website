@@ -1,0 +1,25 @@
+.stroke {
+	text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+
+
+.logo {
+	display:block;
+	margin:auto;
+	width:50%;
+}
+
+.row {
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-size:20px;
+}
+
+.section {
+	padding-top:100px;
+	padding-bottom:100px;
+}
+
+.image-column {
+	display:flex;
+	align-items: center
+}
