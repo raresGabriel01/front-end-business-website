@@ -11,8 +11,8 @@ class PricePanel extends React.Component {
 
 	render() {
 		return (
-			<div className="col-sm-4">
-				<div className="card text-center">
+			<div className="col-md-4 price-panel">
+				<div className="card text-center" style={{margin:"0 50px 0 50px"}}>
 					<div className = "card-header">
 						<h2> {this.props.title} </h2>
 					</div>

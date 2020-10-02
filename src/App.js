@@ -6,6 +6,8 @@ import Menu from './components/Menu.js'
 import About from './components/About.js'
 import Services from './components/Services.js'
 import Pricing from './components/Pricing.js'
+import Reviews from './components/Reviews.js'
+import Footer from './components/Footer.js'
 class App extends React.Component {
   constructor(){
     super()
@@ -21,7 +23,9 @@ class App extends React.Component {
         <Menu/>
         <About/>
         <Services/>
+        <Reviews/>
         <Pricing/>
+        <Footer/>
       </div>
     )
   }

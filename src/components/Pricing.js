@@ -8,21 +8,21 @@ class Pricing extends React.Component {
 		this.state = {
 			offers : [
 				{
-					title:"Normal pack",
+					title:"Normal",
 					img:'/offer1.jpg',
 					description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet lacus a orci consectetur, nec finibus felis convallis.",
 					price:"$300 / month",
 					numberOfSessions:10
 				},
 				{
-					title:"Special pack",
+					title:"Special",
 					img:'/offer2.png',
 					description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet lacus a orci consectetur, nec finibus felis convallis.",
 					price:"$400 / month",
 					numberOfSessions: 15
 				},
 				{
-					title:"Premium pack",
+					title:"Premium",
 					img:'/offer3.jpg',
 					description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet lacus a orci consectetur, nec finibus felis convallis.",
 					price:"$500 / month",
@@ -33,11 +33,12 @@ class Pricing extends React.Component {
 	}
 
 	render() {
-		let pricePanels = this.state.offers.map(offer => <PricePanel title = {offer.title}
-																	 img = {offer.img}
-																	 description = {offer.description} 
-																	 price = {offer.price} 
-																	 numberOfSessions = {offer.numberOfSessions}/>)
+		let pricePanels = this.state.offers.map(offer => <PricePanel key = {offer.title} 
+																	title = {offer.title}
+																	img = {offer.img}
+																	description = {offer.description} 
+																	price = {offer.price} 
+																	numberOfSessions = {offer.numberOfSessions}/>)
 		return (
 			<div className ="container-fluid section" id = "pricing">
 				<div className = "row">

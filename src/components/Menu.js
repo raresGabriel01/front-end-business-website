@@ -13,6 +13,7 @@ class Menu extends React.Component {
 			<nav className = "navbar navbar-expand-md  sticky-top">
 				
 				<a className="navbar-brand" href="#">
+					<img src = '/navpaw.png' style={{maxWidth:20,marginRight:5}}/>
 					Emeowtional
 				</a>
 
@@ -30,6 +31,9 @@ class Menu extends React.Component {
       					</li>
       					<li className="nav-item">
         					<a className="nav-link" href="#">Services</a>
+      					</li>
+      					<li className = "nav-item">
+      						<a className="nav-link" href = "#"> Reviews </a>
       					</li>
       					<li className ="nav-item">
       						<a className="nav-link" href="#"> Pricing </a>

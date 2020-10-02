@@ -1,0 +1,22 @@
+footer {
+	background-color:#393454;
+	color:white;
+	padding:50px 0 0 0;
+}
+
+footer  .socialMedia {
+	font-size:50px;
+	margin:0 10px 0 10px;
+	transition:400ms all linear;
+}
+
+footer .socialMedia:hover {
+	font-size:70px;
+	cursor:pointer;
+}
+
+.copyright {
+	
+	background-color:#211f30;
+	
+}
