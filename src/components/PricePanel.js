@@ -10,9 +10,14 @@ class PricePanel extends React.Component {
 	}
 
 	render() {
+		let dict = {
+			"Normal":"left",
+			"Special":"bottom",
+			"Premium":"right"
+		}
 		return (
 			<div className="col-md-4 price-panel">
-				<div className="card text-center" style={{margin:"0 50px 0 50px"}}>
+				<div className={"card text-center animation " + dict[this.props.title]} style={{margin:"0 50px 0 50px"}}>
 					<div className = "card-header">
 						<h2> {this.props.title} </h2>
 					</div>

@@ -8,6 +8,7 @@ import Services from './components/Services.js'
 import Pricing from './components/Pricing.js'
 import Reviews from './components/Reviews.js'
 import Footer from './components/Footer.js'
+import $ from 'jquery'
 class App extends React.Component {
   constructor(){
     super()
@@ -28,6 +29,10 @@ class App extends React.Component {
         <Footer/>
       </div>
     )
+  }
+
+  componentDidMount() {
+   
   }
 }
 

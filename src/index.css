@@ -24,3 +24,45 @@
 	align-items: center
 }
 
+.animation{
+	visibility:hidden;
+}
+
+.slide-from-right {
+	animation-name:slide-from-right;
+	visibility: visible;
+	animation-duration:1.5s;
+	
+}
+
+@keyframes slide-from-right {
+	from{transform:translateX(70%);opacity:0;}
+	to{transform:translateX(0%);opacity:1;}
+}
+
+.slide-form-left {
+	animation-name:slide-from-left;
+	visibility: visible;
+	animation-duration:1.5s;
+}
+
+@keyframes slide-from-left {
+	from{transform:translateX(-70%);opacity:0;}
+	to{transform:translateX(0);opacity:1;}
+}
+
+
+.slide-from-bottom {
+	animation-name:slide-from-bottom;
+	visibility: visible;
+	animation-duration:1.5s;
+}
+
+@keyframes slide-from-bottom {
+	from{transform:translateY(70%);opacity:0;}
+	to{transform:translateY(0);opacity:1;}
+}
+
+body {
+	overflow-x:hidden;
+}
