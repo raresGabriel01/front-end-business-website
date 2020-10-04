@@ -2,12 +2,6 @@ import React from 'react'
 import './Reviews.css'
 
 class Reviews extends React.Component {
-	constructor(props){
-		super(props)
-		this.state = {
-
-		}
-	}
 
 	render() {
 		return (
@@ -21,21 +15,21 @@ class Reviews extends React.Component {
 
 				<div className="carousel-inner">
 					<div className="carousel-item active">
-						<img src='/carousel1.jpg' />
+						<img src='/carousel1.jpg' alt="carousel1"/>
 						<div className="carousel-caption text-center stroke">
     						<h3>"The greatest therapy sessions I have ever had"</h3>
     						<p> - Jenny P. </p>
   						</div>
 					</div>
 					<div className="carousel-item">
-						<img src ="/carousel2.jpg" />
+						<img src ="/carousel2.jpg" alt="carousel2"/>
 						<div className="carousel-caption text-center stroke">
     						<h3>"A hard to forget experience"</h3>
     						<p > - Steve O. </p>
   						</div>
 					</div>
 					<div className="carousel-item">
-						<img src='/carousel3.jpg' />
+						<img src='/carousel3.jpg' alt="carousel3"/>
 						<div className="carousel-caption text-center stroke">
     						<h3>"I felt like lorem ipsum"</h3>
     						<p> - Andrew T. </p>

@@ -1,19 +1,13 @@
 import React from 'react'
 import './Menu.css'
 class Menu extends React.Component {
-	constructor(props){
-		super(props)
-		this.state = {
-
-		}
-	}
 
 	render() {
 		return (
 			<nav className = "navbar navbar-expand-md  sticky-top">
 				
-				<a className="navbar-brand" href="#">
-					<img src = '/navpaw.png' style={{maxWidth:20,marginRight:5}}/>
+				<a className="navbar-brand" href="#banner">
+					<img src = '/navpaw.png' style={{maxWidth:20,marginRight:5}} alt="navpaw"/>
 					Emeowtional
 				</a>
 

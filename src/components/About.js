@@ -2,12 +2,6 @@ import React from 'react'
 import './About.css'
 
 class About extends React.Component {
-	constructor(props) {
-		super(props)
-		this.state = {
-
-		}
-	}
 
 	render() {
 		return (
@@ -20,7 +14,7 @@ class About extends React.Component {
 						
 					</div>
 					<div className ="col-md-4 image-column" id ="about-2">
-						<img src ='/about-cat.png' className="logo animation right"/>
+						<img src ='/about-cat.png' className="logo animation right" alt ="cat"/>
 					</div>	
 				</div>
 			</div>

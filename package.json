@@ -12,7 +12,6 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.5.2",
-    "google-maps-react": "^2.0.6",
     "jquery": "^3.5.1",
     "leaflet": "^1.7.1",
     "popper.js": "^1.16.1",

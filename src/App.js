@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Head from './components/Head.js'
 import Menu from './components/Menu.js'
@@ -9,14 +8,8 @@ import Pricing from './components/Pricing.js'
 import Reviews from './components/Reviews.js'
 import Footer from './components/Footer.js'
 import ShopMap from './components/ShopMap.js'
-import $ from 'jquery'
-class App extends React.Component {
-  constructor(){
-    super()
-    this.state ={
 
-    }
-  }
+class App extends React.Component {
 
   render() {
 
@@ -34,9 +27,6 @@ class App extends React.Component {
     )
   }
 
-  componentDidMount() {
-   
-  }
 }
 
 export default App;

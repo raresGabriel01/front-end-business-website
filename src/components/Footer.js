@@ -5,12 +5,6 @@ import { faEnvelope, faPhoneAlt, faMapMarkerAlt } from '@fortawesome/free-solid-
 import {faFacebookSquare, faGithub,faInstagram, faLinkedin} from '@fortawesome/free-brands-svg-icons'
 
 class Footer extends React.Component {
-	constructor(props) {
-		super(props)
-		this.state = {
-
-		}
-	}
 
 	render() {
 		return (
@@ -23,16 +17,16 @@ class Footer extends React.Component {
 								<p><FontAwesomeIcon icon = {faPhoneAlt} size="lg"/> 0748 081 287 </p>
 								<p><FontAwesomeIcon icon ={faEnvelope} size="lg"/> baesu_r@yahoo.com </p>
 								<p>
-									<a target ="_blank" href = "https://www.linkedin.com/in/băeşu-rareş-gabriel-162a9a1a3/">
+									<a target ="_blank" rel="noopener noreferrer" href = "https://www.linkedin.com/in/băeşu-rareş-gabriel-162a9a1a3/">
 										<FontAwesomeIcon icon={faLinkedin} size="lg" className ="socialMedia"/>
 									</a>
-									<a target ="_blank" href= "https://github.com/raresGabriel01">
+									<a target ="_blank" rel="noopener noreferrer" href= "https://github.com/raresGabriel01">
 										<FontAwesomeIcon icon = {faGithub} size="lg" className="socialMedia"/>
 									</a>
-									<a target ="_blank" href= "https://www.facebook.com/raresgabriel.baesu/">
+									<a target ="_blank" rel="noopener noreferrer" href= "https://www.facebook.com/raresgabriel.baesu/">
 										<FontAwesomeIcon icon={faFacebookSquare} size="lg" className = "socialMedia"/>
 									</a>
-									<a target ="_blank" href= "https://www.instagram.com/rares.01/">
+									<a target ="_blank" rel="noopener noreferrer" href= "https://www.instagram.com/rares.01/">
 										<FontAwesomeIcon icon={faInstagram} size="lg" className="socialMedia"/>
 									</a>
 									

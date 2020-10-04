@@ -3,20 +3,13 @@ import './Services.css'
 
 
 class Services extends React.Component {
-	constructor(props){
-		super(props)
-		this.state = {
-
-		}
-	}
 
 	render() {
-		console.log("mi am facut rerender")
 		return (
 			<div className = "container-fluid bg-light section" id = "services">
 				<div className="row" >
 					<div className="col-md-4 image-column " id ="services-1">
-						<img src='/paw.png' className="logo animation left"/>
+						<img src='/paw.png' className="logo animation left" alt ="paw"/>
 					</div>
 
 					<div className="col-md-8 animation right" id = "services-2">

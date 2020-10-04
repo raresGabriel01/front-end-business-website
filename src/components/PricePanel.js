@@ -2,12 +2,6 @@ import React from 'react'
 import './PricePanel.css'
 
 class PricePanel extends React.Component {
-	constructor(props) {
-		super(props)
-		this.state = {
-
-		}
-	}
 
 	render() {
 		let dict = {
@@ -22,7 +16,7 @@ class PricePanel extends React.Component {
 						<h2> {this.props.title} </h2>
 					</div>
 					<div className ="card-body">
-						<img className="img-fluid img-thumbnail" src= {this.props.img}/>
+						<img className="img-fluid img-thumbnail" src= {this.props.img} alt="pricepanelimg"/>
 						<p> Description: {this.props.description} </p>
 						<p> Price: {this.props.price} </p>
 						<p> Number of sessions: {this.props.numberOfSessions} </p> 

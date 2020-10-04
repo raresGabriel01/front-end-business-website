@@ -10,12 +10,7 @@ const customMarker = new L.icon({
   iconAnchor: [13, 0]
 });
 
-export default class MapLeaflet extends Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-    }
-  }
+class MapLeaflet extends Component {
 
   render() {
     const position = [44.435818, 26.101634];
@@ -37,3 +32,4 @@ export default class MapLeaflet extends Component {
     );
   }
 }
+export default MapLeaflet

@@ -13,7 +13,6 @@ window.onload = () => {
     	$(".animation").each(function(){
       	var pos = $(this).offset().top
       	var winTop = $(window).scrollTop()
-        console.log(pos, winTop)
         if (pos < winTop + 600) {
         	let classToAdd = null
         	if($(this).attr('class').indexOf('right') >= 0) {
