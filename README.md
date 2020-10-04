@@ -1,3 +1,11 @@
+A responsive presentation website for a cat themed business
+
+## Technologies used
+  - ReactJS (16.13.1)
+  - Bootstrap (4.5.2)
+  - jQuery (3.5.1)
+  - Vanila HTML, CSS and JavaScript
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
