@@ -18,20 +18,21 @@ a.navbar-brand {
 
 a.nav-link {
 	color:white;
-}
-
-
-
-li.nav-item {
 	height:100%;
 	line-height:30px;
 	margin-right:20px;
-	padding:0 10px 0 10px;
+	padding:10px 18px;
 	border:2px solid #393454;
 	transition: 300ms all linear;
 	border-radius:12px;
 }
 
-li.nav-item:hover {
+a.nav-link.active {
+	border-color:white;
+}
+
+
+
+a.nav-link:hover {
 	border-color:white;
 }

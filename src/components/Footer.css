@@ -14,7 +14,13 @@ footer .socialMedia:hover {
 	font-size:70px;
 	cursor:pointer;
 }
-
+footer a {
+	color:white;
+	
+}
+footer a:hover {
+	color:white;
+}
 .copyright {
 	
 	background-color:#211f30;

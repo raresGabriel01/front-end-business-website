@@ -11,7 +11,7 @@ class About extends React.Component {
 
 	render() {
 		return (
-			<div className="container-fluid section " id="about">
+			<div className="container-fluid section " id="about-us">
 				<div className="row">
 					<div className = "col-md-8 animation left" id = "about-1">
 						<h2> Who are we ?</h2>

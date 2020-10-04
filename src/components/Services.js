@@ -11,6 +11,7 @@ class Services extends React.Component {
 	}
 
 	render() {
+		console.log("mi am facut rerender")
 		return (
 			<div className = "container-fluid bg-light section" id = "services">
 				<div className="row" >

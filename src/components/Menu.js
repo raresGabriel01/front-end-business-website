@@ -27,19 +27,19 @@ class Menu extends React.Component {
 				<div className="collapse navbar-collapse" id="collapsibleNavbar">
     				<ul className="nav navbar-nav ml-auto">
       					<li className="nav-item">
-       	 					<a className="nav-link" href="#">About us</a>
+       	 					<a className="nav-link" href="#about-us">About us</a>
       					</li>
       					<li className="nav-item">
-        					<a className="nav-link" href="#">Services</a>
+        					<a className="nav-link" href="#services">Services</a>
       					</li>
       					<li className = "nav-item">
-      						<a className="nav-link" href = "#"> Reviews </a>
+      						<a className="nav-link" href = "#reviews"> Reviews </a>
       					</li>
       					<li className ="nav-item">
-      						<a className="nav-link" href="#"> Pricing </a>
+      						<a className="nav-link" href="#pricing"> Pricing </a>
       					</li>
      	 				<li className="nav-item">
-        					<a className="nav-link" href="#">Contact</a>
+        					<a className="nav-link" href="#map">Contact</a>
       					</li>
     				</ul>
   				</div>

@@ -11,12 +11,12 @@ class Reviews extends React.Component {
 
 	render() {
 		return (
-			<div id="demo" className="carousel slide" data-ride="carousel" >	
+			<div id="reviews" className="carousel slide" data-ride="carousel" >	
 
 				<ul className = "carousel-indicators">
-					<li data-target="#demo" data-slide-to="0" className="active"></li>
-					<li data-target="#demo" data-slide-to="1" ></li>
-					<li data-target="#demo" data-slide-to="2" ></li>
+					<li data-target="#reviews" data-slide-to="0" className="active"></li>
+					<li data-target="#reviews" data-slide-to="1" ></li>
+					<li data-target="#reviews" data-slide-to="2" ></li>
 				</ul>
 
 				<div className="carousel-inner">
@@ -43,11 +43,11 @@ class Reviews extends React.Component {
 					</div>
 				</div>
 
-				<a className="carousel-control-prev" href="#demo" data-slide="prev">
+				<a className="carousel-control-prev" href="#reviews" data-slide="prev">
 					<span className="carousel-control-prev-icon"></span>
 				</a>
 
-				<a className="carousel-control-next" href="#demo" data-slide="next">
+				<a className="carousel-control-next" href="#reviews" data-slide="next">
 					<span className="carousel-control-next-icon"></span>
 				</a>
 

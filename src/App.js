@@ -8,6 +8,7 @@ import Services from './components/Services.js'
 import Pricing from './components/Pricing.js'
 import Reviews from './components/Reviews.js'
 import Footer from './components/Footer.js'
+import ShopMap from './components/ShopMap.js'
 import $ from 'jquery'
 class App extends React.Component {
   constructor(){
@@ -18,6 +19,7 @@ class App extends React.Component {
   }
 
   render() {
+
     return (
       <div>
         <Head/>
@@ -26,6 +28,7 @@ class App extends React.Component {
         <Services/>
         <Reviews/>
         <Pricing/>
+        <ShopMap />
         <Footer/>
       </div>
     )

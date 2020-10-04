@@ -5,6 +5,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import './index.css'
 import App from './App.js'
 import $ from 'jquery'
+import "leaflet/dist/leaflet.css"
 ReactDOM.render(<App />, $('#root')[0]);
 
 window.onload = () => {

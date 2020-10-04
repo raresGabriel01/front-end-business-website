@@ -65,4 +65,8 @@
 
 body {
 	overflow-x:hidden;
+	position:relative;
+}
+html {
+	scroll-behavior: smooth;
 }

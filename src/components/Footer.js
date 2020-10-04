@@ -1,13 +1,9 @@
 import React from 'react'
 import './Footer.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import {faMapMarkerAlt} from '@fortawesome/free-solid-svg-icons'
-import {faPhoneAlt} from '@fortawesome/free-solid-svg-icons'
-import {faFacebookSquare} from '@fortawesome/free-brands-svg-icons'
-import {faGithub} from '@fortawesome/free-brands-svg-icons'
-import {faInstagram} from '@fortawesome/free-brands-svg-icons'
-import {faLinkedin} from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope, faPhoneAlt, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
+import {faFacebookSquare, faGithub,faInstagram, faLinkedin} from '@fortawesome/free-brands-svg-icons'
+
 class Footer extends React.Component {
 	constructor(props) {
 		super(props)
@@ -27,10 +23,21 @@ class Footer extends React.Component {
 								<p><FontAwesomeIcon icon = {faPhoneAlt} size="lg"/> 0748 081 287 </p>
 								<p><FontAwesomeIcon icon ={faEnvelope} size="lg"/> baesu_r@yahoo.com </p>
 								<p>
-									<FontAwesomeIcon icon={faLinkedin} size="lg" className ="socialMedia"/>
-									<FontAwesomeIcon icon = {faGithub} size="lg" className="socialMedia"/>
-									<FontAwesomeIcon icon={faFacebookSquare} size="lg" className = "socialMedia"/>
-									<FontAwesomeIcon icon={faInstagram} size="lg" className="socialMedia"/>
+									<a target ="_blank" href = "https://www.linkedin.com/in/băeşu-rareş-gabriel-162a9a1a3/">
+										<FontAwesomeIcon icon={faLinkedin} size="lg" className ="socialMedia"/>
+									</a>
+									<a target ="_blank" href= "https://github.com/raresGabriel01">
+										<FontAwesomeIcon icon = {faGithub} size="lg" className="socialMedia"/>
+									</a>
+									<a target ="_blank" href= "https://www.facebook.com/raresgabriel.baesu/">
+										<FontAwesomeIcon icon={faFacebookSquare} size="lg" className = "socialMedia"/>
+									</a>
+									<a target ="_blank" href= "https://www.instagram.com/rares.01/">
+										<FontAwesomeIcon icon={faInstagram} size="lg" className="socialMedia"/>
+									</a>
+									
+									
+									
 								</p>
 							</div>
 						</div>
