@@ -5,7 +5,7 @@ A responsive presentation website for a cat themed business
   - Bootstrap (4.5.2)
   - jQuery (3.5.1)
   - Vanila HTML, CSS and JavaScript
-
+  - LeaftletJS external API for the interactive map (https://leafletjs.com)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
